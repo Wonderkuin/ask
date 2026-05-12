@@ -18,6 +18,6 @@ target_link_libraries(engine PUBLIC
     stb_image
 )
 
-# Copy shaders to build directory
-file(COPY ${CMAKE_SOURCE_DIR}/assets/shaders
+# Copy assets to build directory
+file(COPY ${CMAKE_SOURCE_DIR}/assets
      DESTINATION ${CMAKE_BINARY_DIR})
