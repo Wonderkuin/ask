@@ -24,7 +24,13 @@
       "Bash(curl -sS https://bootstrap.pypa.io/get-pip.py -o /tmp/get-pip.py)",
       "Bash(cmake ..)",
       "Bash(gh auth *)",
-      "Bash(identify /home/wangdk/ask/assets/textures/player.png)"
+      "Bash(identify /home/wangdk/ask/assets/textures/player.png)",
+      "PowerShell(cmake *)",
+      "PowerShell(Get-Content -Path \"C:\\\\Users\\\\TU\\\\Documents\\\\Workspace\\\\ask\\\\README.md\"; \"`n--- CMakeLists ---\"; Get-Content -Path \"C:\\\\Users\\\\TU\\\\Documents\\\\Workspace\\\\ask\\\\CMakeLists.txt\"; \"`n--- engine CMakeLists ---\"; Get-Content -Path \"C:\\\\Users\\\\TU\\\\Documents\\\\Workspace\\\\ask\\\\engine\\\\CMakeLists.txt\"; \"`n--- example CMakeLists ---\"; Get-Content -Path \"C:\\\\Users\\\\TU\\\\Documents\\\\Workspace\\\\ask\\\\example\\\\CMakeLists.txt\")",
+      "PowerShell(ninja *)",
+      "WebFetch(domain:thebookofshaders.com)",
+      "PowerShell(Get-Content -Path \"README.md\" -TotalCount 180; \"`n--- example/main.cpp ---\"; Get-Content -Path \"example/main.cpp\" -TotalCount 220; \"`n--- sprite.vert ---\"; Get-Content -Path \"assets/shaders/sprite.vert\" -TotalCount 100; \"`n--- sprite.frag ---\"; Get-Content -Path \"assets/shaders/sprite.frag\" -TotalCount 100)",
+      "PowerShell(New-Item *)"
     ]
   }
 }
