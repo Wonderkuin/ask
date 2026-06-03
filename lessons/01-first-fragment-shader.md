@@ -208,8 +208,8 @@ void main() {
 确保从 `build` 目录运行程序。当前程序会相对当前工作目录查找：
 
 ```text
-shaders/sprite.vert
-shaders/sprite.frag
+assets/shaders/sprite.vert
+assets/shaders/sprite.frag
 assets/textures/player.png
 ```
 
@@ -217,7 +217,7 @@ assets/textures/player.png
 
 可能原因：
 
-1. 你改的是 `assets/shaders/sprite.frag`，但 `build/shaders/sprite.frag` 没更新。
+1. 你改的是 `assets/shaders/sprite.frag`，但 `build/assets/shaders/sprite.frag` 没更新。
 2. 没有重新执行 `cmake --build build`。
 3. 程序还在运行旧版本，需要关闭后重新打开。
 

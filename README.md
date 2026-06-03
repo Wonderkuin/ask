@@ -142,7 +142,7 @@ cd build
 ./example/example_game
 ```
 
-The executable looks for `shaders/` and `assets/` relative to the working directory, so always run from the `build/` directory.
+The executable looks for resources under `assets/` relative to the working directory, so always run from the `build/` directory.
 
 ### Controls
 

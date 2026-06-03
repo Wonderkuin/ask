@@ -13,7 +13,7 @@ Renderer::~Renderer() {
 }
 
 bool Renderer::init(int width, int height) {
-    if (!shader_.load("shaders/sprite.vert", "shaders/sprite.frag"))
+    if (!shader_.load("assets/shaders/sprite.vert", "assets/shaders/sprite.frag"))
         return false;
 
     float vertices[] = {

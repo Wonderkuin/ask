@@ -7,7 +7,7 @@
 1. 从第一课开始，不跳课。
 2. 每课先备份或记录当前 `assets/shaders/sprite.frag` 的内容。
 3. 按文档替换 fragment shader。
-4. 从 `build` 目录运行示例程序，因为程序会相对工作目录查找 `shaders/` 和 `assets/`。
+4. 从 `build` 目录运行示例程序，因为程序会相对工作目录查找 `assets/` 下的资源。
 5. 完成课后练习，再进入下一课。
 
 常用命令：

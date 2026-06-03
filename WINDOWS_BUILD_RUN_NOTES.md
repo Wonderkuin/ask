@@ -62,7 +62,7 @@ cmake --build build --config Debug
 
 ## 运行步骤
 
-README 中说明程序需要从 `build` 目录运行，因为程序会相对当前工作目录查找 `shaders/` 和 `assets/`。
+README 中说明程序需要从 `build` 目录运行，因为程序会相对当前工作目录查找 `assets/` 下的资源。
 
 运行 Debug 版本：
 
@@ -94,7 +94,7 @@ cd build
 如果窗口打不开，可能原因包括：
 
 - 显卡或驱动不支持 OpenGL 3.3 Core
-- 没有从 `build` 目录运行，导致找不到 shader 或 assets
+- 没有从 `build` 目录运行，导致找不到 `assets/` 下的 shader 或 texture 资源
 - CMake 下载 GitHub 依赖失败
 - 没有安装 Visual Studio C++ 编译工具
 
